@@ -1,0 +1,19 @@
+h1
+{
+    font-family: "righteous";
+    
+}
+
+ 
+    /* section banniere */
+    
+    .banniere{
+        width: 100%;
+        height: 500px;
+        background-image: url(/images/Plan\ de\ travail\ 1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .navbar-nav-mr-auto{
+        margin-left: ;
+    }
