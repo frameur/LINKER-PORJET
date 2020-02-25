@@ -14,7 +14,26 @@ h1
         background-repeat: no-repeat;
         background-size: contain;
     }
-    .navbar-nav-mr-auto{
-        margin-left: ;
+    @media (max-width:1500px){
+        .banniere{
+            height: 350px;
+        }
     }
+    @media (max-width:1000px){
+        .banniere{
+            height: 300px;
+        }
+    }
+    @media (max-width: 750px){
+        .banniere{
+            height: 250px;
+        }
+    }
+    @media (max-width:400px){
+        .banniere{
+            height: 200px;
+        }
+    }
+    
+
     
