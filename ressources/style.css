@@ -17,3 +17,9 @@ h1
     .navbar-nav-mr-auto{
         margin-left: ;
     }
+    .name{
+        display:flex;
+        justify-content: center;
+        height: auto;
+        width: 100px;
+    }
