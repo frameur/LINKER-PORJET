@@ -26,22 +26,26 @@ h1
     }
     @media (max-width:700px){
         .banniere{
-            height: 180px;
+            height: 220px;
         }
     }
-    @media (max-width: 600px){
+    @media (max-width: 640px){
         .banniere{
-            height: 150px;
+            height: 190px;
+        }
+    }
+    @media (max-width:500px){
+        .banniere{
+            height: 180px;
         }
     }
     @media (max-width:400px){
         .banniere{
-            height: 100px;
+            height: 170px;
         }
     }
-    .nav-link img{
-        display: block;
-        align-content: center;
+    .nav-link{
+        margin-left:20px;
     }
 
     
