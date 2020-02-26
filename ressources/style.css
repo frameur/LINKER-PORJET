@@ -8,8 +8,6 @@ h1{
     margin: 40px 0 40px 0;
     
 }
-
- 
     /* section banniere */
     
     .banniere{
@@ -81,6 +79,7 @@ h1{
         height: 400px;
         width: 400px;
         margin-left: 50px;
+        border-radius: 20px;
         
     }
     .nav-item{
