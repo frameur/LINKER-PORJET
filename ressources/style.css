@@ -1,4 +1,15 @@
+<<<<<<< Updated upstream
 body{
+=======
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1
+{
+>>>>>>> Stashed changes
     font-family: "righteous";
 }
 
@@ -15,9 +26,10 @@ h1{
     .banniere{
         width: 100%;
         height: 500px;
-        background-image: url(/images/Plan\ de\ travail\ 1.png);
+        /* background-image: url(/images/Plan\ de\ travail\ 1.png); */
         background-repeat: no-repeat;
         background-size: contain;
+        
     }
     
     /* responsive banniere */
@@ -52,6 +64,7 @@ h1{
             height: 170px;
         }
     }
+<<<<<<< Updated upstream
     .logo{
         margin: auto;
     }
@@ -92,4 +105,11 @@ h1{
         
     }
 
+=======
+    .carousel{ 
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+>>>>>>> Stashed changes
     
