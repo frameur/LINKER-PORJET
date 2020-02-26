@@ -21,42 +21,41 @@
 </head>
 
 <body>
-
+    <!-- <div class="container"> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="row">
-            <div class="col-md-12">
-                <a class="navbar-brand" href="#"><img src="./images/logo-linker.png" width="70px" height="50px"
-                        alt=""></a>
-            </div>
+            <!-- <div class="col-md-12"> -->
+            <a class="navbar-brand" href="#"><img src="./images/logo-linker.png" width="70px" height="50px" alt=""></a>
+        </div>
         </div>
 
         </div>
-        <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galery<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Equipe<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Newsletter<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Avis<span class="sr-only">(current)</span></a>
+                        </li>
 
-
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav  mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Galery<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Equipe<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Newsletter<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Avis<span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <li class="nav-item">
-                    </li>
-                </ul>
+                        <li class="nav-item">
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </div>
         </div>
 
         <!-- carousel presentation des produits -->
@@ -205,26 +204,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
 
-        <a href="<iframe src="
-            https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d61316.38834031818!2d-1.6186939746704487!3d47.21996480542311!3m2!1i1024!2i768!4f13.1!2m1!1smicromania%20nantes!5e0!3m2!1sfr!2sfr!4v1582714186810!5m2!1sfr!2sfr"
-            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>"><h1>la carte</h1>
-            </a>
-    </div>
-    <h1>My First Google Map</h1>
-
-    <div id="googleMap" style="width:100%;height:400px;"></div>
-
-    <script>
-        function myMap() {
-            var mapProp = {
-                center: new google.maps.LatLng(51.508742, -0.120850),
-                zoom: 5,
-            };
-            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-        }
-    </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
