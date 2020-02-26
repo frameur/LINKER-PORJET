@@ -1,5 +1,14 @@
+/* global */
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
 body{
     font-family: "righteous";
+   
 }
 
 h1{
@@ -11,23 +20,24 @@ h1{
     /* section banniere */
     
     .banniere{
-        width: 100%;
+        width: auto;
         height: 500px;
         background-image: url(/images/Plan\ de\ travail\ 1.png);
         background-repeat: no-repeat;
         background-size: contain;
+        
     }
     
     /* responsive banniere */
     
-    @media (max-width:1400px){
+    @media (max-width:1300px){
         .banniere{
-            height: 350px;
+            height: 500px;
         }
     }
-    @media (max-width:900px){
+    @media (max-width:100px){
         .banniere{
-            height: 250px;
+            height: 400px;
         }
     }
     @media (max-width:700px){
@@ -35,35 +45,56 @@ h1{
             height: 220px;
         }
     }
-    @media (max-width: 640px){
+    @media (max-width: 725px){
         .banniere{
-            height: 190px;
+            height: 200px;
         }
     }
     @media (max-width:500px){
         .banniere{
-            height: 180px;
+            height: 160px;
         }
     }
     @media (max-width:400px){
         .banniere{
-            height: 170px;
+            height: 150px;
         }
     }
-    .logo{
-        margin: auto;
+    .navbar-brand img{
+        margin: 20px;
+        padding: 0;
     }
-    .logo:hover{
+    
+    
+    /* responsive logo */
+    @media (max-width:1100px){
+        .navbar-brand img{
+            width: 50px;
+            height: 30px;
+        }
+    }
+    .logo-text{
+        margin: auto;
+        
+    }
+    /* responsive img text */
+    @media (max-whith:1100px){
+        .nav-link.logo a{
+            width: 100px;
+            height: 40px;
+        }
+    }
+    /* .logo:hover{
         transform: scale(1.5);
 
-    }
+    } */
     .nav-link{
-        margin-left: 50px;
+        margin-left: 30px;
     }
     /* bouton recherche magasin */
     .btn{
         border-radius: 20px;
-        width: 500px;
+        width: 300px;
         text-align: center;
         margin: auto;
         margin-top: 30px;
@@ -75,9 +106,10 @@ h1{
         text-decoration: none;
         
     }
-    .img-thumbnail.my-3{
+    /* image gallery */
+    /* .img-thumbnail.my-3{
         height: 400px;
-        width: 400px;
+        width: 350px;
         margin-left: 50px;
         border-radius: 20px;
         
@@ -91,5 +123,20 @@ h1{
         transform: scale(1.5);
         
     }
+    /* FOOTER */
+
+footer
+{
+    width: 100%;
+    height: 200px;
+    background-color: #282888;
+    color: wheat;
+    
+}
+footer i 
+{
+    font-size: 50px;
+    color: white;
+}
 
     
