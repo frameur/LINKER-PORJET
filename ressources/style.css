@@ -25,6 +25,7 @@ h1{
         background-image: url(/images/Plan\ de\ travail\ 1.png);
         background-repeat: no-repeat;
         background-size: contain;
+        margin-bottom: 0;
         
     }
     
@@ -88,10 +89,10 @@ h1{
             height: 40px;
         }
     }
-    /* .logo:hover{
-        transform: scale(1.5);
+    .logo:hover{
+        
 
-    } */
+    }
     /* responsive logo text */
     @media (max-whidth:950px){
       a.nav-link.logo{
@@ -102,9 +103,10 @@ h1{
         margin-left: 30px;
     }
     /* carousel*/
+   
 #myCarousel .carousel-item .mask {
     position: absolute;
-    top: 0;
+    top: 70px;
     left:0;
     height:100%;
     width: 100%;
@@ -117,10 +119,11 @@ h1{
 #myCarousel h4{
     font-size:30px;
     margin-bottom:15px;
+    margin-left: 100px;
     color:rgb(17, 9, 9);
     line-height:100%;
     letter-spacing:0.5px;
-    font-weight:600;
+    font-weight:800;
 }
 #myCarousel p{
     font-size:18px;
@@ -290,7 +293,7 @@ h1{
         width: 300px;
         text-align: center;
         margin: auto;
-        margin-top: 30px;
+        /* margin-top: 30px; */
         background-color: tomato;
     }
    
