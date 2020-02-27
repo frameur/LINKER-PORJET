@@ -14,7 +14,7 @@ body{
 h1{
     font-family: "righteous";
     text-align: center;
-    margin: 40px;
+    margin: 30px;
     
 }
     /* section banniere */
@@ -22,7 +22,7 @@ h1{
     .banniere{
         width: auto;
         height: 500px;
-        background-image: url(/images/Plan\ de\ travail\ 1.png);
+        background-image: url(/images/download);
         background-repeat: no-repeat;
         background-size: contain;
         margin-bottom: 0;
@@ -83,20 +83,17 @@ h1{
         
     }
     /* responsive img text */
-    @media (max-whith:1100px){
-        .nav-link.logo a{
+    @media (max-width:1100px){
+        .nav-link.logo-link {
             width: 100px;
             height: 40px;
         }
     }
-    .logo:hover{
-        
-
-    }
+    
     /* responsive logo text */
-    @media (max-whidth:950px){
-      a.nav-link.logo{
-            background-image: none;
+    @media (max-width:1100px){
+         .titre {
+        display: none;
         }
     }
     .nav-link{
