@@ -14,7 +14,7 @@ body{
 h1{
     font-family: "righteous";
     text-align: center;
-    margin: 30px;
+    margin: 40px;
     
 }
     /* section banniere */
@@ -76,6 +76,7 @@ h1{
         .navbar-brand img{
             width: 50px;
             height: 30px;
+            left: auto;
         }
     }
     .logo-text{
@@ -87,6 +88,7 @@ h1{
         .nav-link.logo-link {
             width: 100px;
             height: 40px;
+           
         }
     }
     
