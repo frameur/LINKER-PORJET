@@ -29,6 +29,10 @@ h1{
         margin-bottom: 0;
         
     }
+    span.navbar-toggler-icon{
+        right: auto;
+        
+    }
     
     /* responsive banniere */
     
@@ -100,7 +104,11 @@ h1{
         }
     }
     .nav-link{
-        margin-left: 30px;
+       position: relative;
+       
+    }
+    a.nav-link{
+        margin: auto;
     }
     /* carousel*/
    
