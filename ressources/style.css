@@ -312,19 +312,11 @@ h1{
         color: rgb(4, 36, 11);
         text-decoration: none;
         
-        
+      /* nav menu   */
     }
     a.nav-link{
         margin: 0;
     }
-    /* image gallery */
-    .img-thumbnail-my-3{
-         width: 300px;
-         height: 350px;
-        
-       
-        
-    }  
     .nav-item{
         font-size: 20px;
         
@@ -335,6 +327,16 @@ h1{
         font-weight: 800;
         
     } 
+    
+    /* image gallery */
+    .img-thumbnail-my-3{
+         width: 300px;
+         height: 350px;
+        
+       
+        
+    }  
+    
 
 
 /* MAPS *** */
@@ -411,7 +413,7 @@ footer
 {
     width: 100%;
     height: 200px;
-    background-color: #282888;
+    background-color: #1f315a;
     color: wheat;
     
 }
