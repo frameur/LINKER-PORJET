@@ -135,7 +135,7 @@ h1{
     font-weight:800;
 }
 /* responsive my carousel texte */
-@media(max-widht:900px){
+@media(max-width:500px){
     #myCarousel h4{
         font-size: 20px;
     }

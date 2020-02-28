@@ -1,4 +1,4 @@
-https://linker-games.netlify.com/index.html
+https://linker-games.netlify.com/sitemap-index.xml
 
 User-agent: *
 Disallow: /liste-souhaits/*
