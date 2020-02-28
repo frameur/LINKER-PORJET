@@ -1,5 +1,3 @@
-https://linker-games.netlify.com/sitemap.xml
-
 User-agent: *
 Disallow: /liste-souhaits/*
 Disallow: /opinions*
