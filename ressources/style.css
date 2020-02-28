@@ -331,7 +331,8 @@ h1{
     }
     .nav-item a:hover{
         
-        transform: scale(1.5);
+        transform: scale(1);
+        font-weight: 800;
         
     } 
 
