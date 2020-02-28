@@ -138,6 +138,7 @@ h1{
 @media(max-width:500px){
     #myCarousel h4{
         font-size: 20px;
+        margin-top: 10px;
     }
 }
 #myCarousel p{
