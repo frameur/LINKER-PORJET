@@ -23,7 +23,7 @@ h1{
     .banniere{
         width: auto;
         height: 500px;
-        background-image: url(/images/download);
+        background-image: url(/images/bannière-finale.png);
         background-repeat: no-repeat;
         background-size: contain;
         margin-bottom: 0;
