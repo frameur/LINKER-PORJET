@@ -1,3 +1,5 @@
+https://linker-games.netlify.com/index.html
+
 User-agent: *
 Disallow: /liste-souhaits/*
 Disallow: /opinions*

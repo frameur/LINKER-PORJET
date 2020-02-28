@@ -134,6 +134,12 @@ h1{
     letter-spacing:0.5px;
     font-weight:800;
 }
+/* responsive my carousel texte */
+@media(max-widht:900px){
+    #myCarousel h4{
+        font-size: 20px;
+    }
+}
 #myCarousel p{
     font-size:18px;
     margin-bottom:15px;
