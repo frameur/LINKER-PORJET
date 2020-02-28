@@ -43,22 +43,22 @@ h1{
     }
     @media (max-width:1100px){
         .banniere{
-            height: 300px;
+            height: 350px;
         }
     }
     @media (max-width:900px){
         .banniere{
-            height: 250px;
+            height: 300px;
         }
     }
     @media (max-width: 725px){
         .banniere{
-            height: 200px;
+            height: 250px;
         }
     }
     @media (max-width:600px){
         .banniere{
-            height: 150px;
+            height: 200px;
         }
     }
     @media (max-width:350px){
@@ -303,14 +303,19 @@ h1{
         width: 300px;
         text-align: center;
         margin: auto;
-        /* margin-top: 30px; */
+        margin-top: 30px;
         background-color: #1f315a;
     }
+    
    
     .btn a:hover{
         color: rgb(4, 36, 11);
         text-decoration: none;
         
+        
+    }
+    a.nav-link{
+        margin: 0;
     }
     /* image gallery */
     .img-thumbnail-my-3{
@@ -341,10 +346,7 @@ h1{
     /* margin-top: 30px; */
     background-color: #1f315a;
 }
- p{
-    margin-right: 100px;
-   
-}
+ 
 
 /* AVIS CLIENTS *******
 ********************** */
