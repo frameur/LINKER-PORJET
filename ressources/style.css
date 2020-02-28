@@ -346,14 +346,19 @@ h1{
     
 /* MAPS *** */
 
-.btn{
+.btn2{
     border-radius: 20px;
-    width: 200px;
+    width: 300px;
     text-align: center;
     margin: auto;
+    background-color: #040f38;
     /* margin-top: 30px; */
    
 }
+.btn2 a:hover{
+    color: #08bed6;
+}
+
  
 
 /* AVIS CLIENTS *******
