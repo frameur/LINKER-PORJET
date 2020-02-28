@@ -63,7 +63,8 @@ h1{
     }
     @media (max-width:400px){
         .banniere{
-            height: 10px;
+            height: 100px;
+            width: 100%;
         }
     }
     
