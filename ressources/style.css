@@ -1,169 +1,248 @@
 /* global */
-*/{
+*/ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
-body{
+
+body {
     font-family: "righteous";
     width: 100%;
     height: 100vh;
-   
+    background-image: url(/images/dimitri-houtteman-k-xYhI3-gJM-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
 }
 
-h1{
+h1 {
     font-family: "righteous";
     text-align: center;
     margin: 40px;
-    
+
 }
-    /* section banniere */
-    
-    .banniere{
-        width: auto;
-        height: 500px;
-        background-image: url(/images/bannière-finale.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        margin-bottom: 0;
-        
+
+/* section banniere */
+
+.banniere {
+    width: auto;
+    height: 500px;
+    background-image: url(/images/bannière-finale.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0;
+
+}
+
+span.navbar-toggler-icon {
+    right: auto;
+
+}
+
+/* responsive banniere */
+
+@media (max-width:1500px) {
+    .banniere {
+        height: 400px;
     }
-    span.navbar-toggler-icon{
-        right: auto;
-        
+}
+
+@media (max-width:1100px) {
+    .banniere {
+        height: 350px;
     }
-    
-    /* responsive banniere */
-    
-    @media (max-width:1500px){
-        .banniere{
-            height: 400px;
-        }
+}
+
+@media (max-width:900px) {
+    .banniere {
+        height: 300px;
     }
-    @media (max-width:1100px){
-        .banniere{
-            height: 350px;
-        }
+}
+
+@media (max-width: 725px) {
+    .banniere {
+        height: 250px;
     }
-    @media (max-width:900px){
-        .banniere{
-            height: 300px;
-        }
+}
+
+@media (max-width:600px) {
+    .banniere {
+        height: 200px;
     }
-    @media (max-width: 725px){
-        .banniere{
-            height: 250px;
-        }
+}
+
+@media (max-width:400px) {
+    .banniere {
+        height: 100px;
+        width: 100%;
     }
-    @media (max-width:600px){
-        .banniere{
-            height: 200px;
-        }
+}
+
+.navbar-brand img {
+    margin: 20px;
+    padding: 0;
+}
+
+.carousel-item {
+    width: 700px;
+
+}
+
+
+/* responsive logo */
+@media (max-width:900px) {
+    .navbar-brand img {
+        width: 50px;
+        height: 30px;
+        left: auto;
     }
-    @media (max-width:400px){
-        .banniere{
-            height: 100px;
-            width: 100%;
-        }
+}
+
+.logo-text {
+    margin: auto;
+
+}
+
+/* responsive img text */
+@media (max-width:1100px) {
+    .nav-link.logo-link {
+        width: 100px;
+        height: 40px;
+
     }
-    
-    .navbar-brand img{
-        margin: 20px;
-        padding: 0;
-    }
-    .carousel-item{
-        width: 700px;
-        
-    }
-    
-    
-    /* responsive logo */
-    @media (max-width:900px){
-        .navbar-brand img{
-            width: 50px;
-            height: 30px;
-            left: auto;
-        }
-    }
-    .logo-text{
-        margin: auto;
-        
-    }
-    /* responsive img text */
-    @media (max-width:1100px){
-        .nav-link.logo-link {
-            width: 100px;
-            height: 40px;
-           
-        }
-    }
-    
-    /* responsive logo text */
-    @media (max-width:1100px){
-         .titre {
+}
+
+/* responsive logo text */
+@media (max-width:1100px) {
+    .titre {
         display: none;
-        }
     }
-    .nav-link{
-       position: relative;
-       
-    }
-    a.nav-link{
-        margin-left: 50px;
-    }
-    /* carousel*/
-   
+}
+
+.nav-link {
+    position: relative;
+
+}
+
+a.nav-link {
+    margin-left: 50px;
+}
+
+/* carousel*/
+
 #myCarousel .carousel-item .mask {
     position: absolute;
     top: 70px;
-    left:0;
-    height:100%;
+    left: 0;
+    height: 100%;
     width: 100%;
     background-attachment: fixed;
 }
-#myCarousel h1{
-  color: #F47735;
+
+#myCarousel h1 {
+    color: #F47735;
 }
 
-#myCarousel h4{
-    font-size:50px;
-    margin-bottom:5px;
+#myCarousel h4 {
+    font-size: 50px;
+    margin-bottom: 5px;
     margin-left: 100px;
-    color:rgb(17, 9, 9);
-    line-height:100%;
-    letter-spacing:0.5px;
-    font-weight:800;
+    color: rgb(17, 9, 9);
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    font-weight: 800;
 }
+
 /* responsive my carousel texte */
-@media(max-width:500px){
-    #myCarousel h4{
+@media(max-width:500px) {
+    #myCarousel h4 {
         font-size: 20px;
         margin-top: 10px;
     }
 }
-#myCarousel p{
-    font-size:18px;
-    margin-bottom:15px;
-    color:#d5d5d5;
-}
-#myCarousel .carousel-item a{background:rgb(56, 161, 221); font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; border-radius: 20px; }
-#myCarousel .carousel-item a:hover{background:#040f38; text-decoration:none;  }
 
-#myCarousel .carousel-item h4{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;} 
-#myCarousel .carousel-item p{-webkit-animation-name:slideInRight; animation-name:slideInRight;} 
-#myCarousel .carousel-item a{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
-#myCarousel .carousel-item .mask img{-webkit-animation-name:slideInRight; animation-name:slideInRight; display:block; height:auto; max-width:100%;}
-#myCarousel h4, #myCarousel p, #myCarousel a, #myCarousel .carousel-item .mask img{animation-duration: 1s;
+#myCarousel p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d5d5d5;
+}
+
+#myCarousel .carousel-item a {
+    background: rgb(56, 161, 221);
+    font-size: 14px;
+    color: #FFF;
+    padding: 13px 32px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#myCarousel .carousel-item a:hover {
+    background: #040f38;
+    text-decoration: none;
+}
+
+#myCarousel .carousel-item h4 {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+#myCarousel .carousel-item p {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+}
+
+#myCarousel .carousel-item a {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+#myCarousel .carousel-item .mask img {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+#myCarousel h4,
+#myCarousel p,
+#myCarousel a,
+#myCarousel .carousel-item .mask img {
+    animation-duration: 1s;
     animation-duration: 1.6s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-#myCarousel .container {max-width: 1430px;  }
-#myCarousel .carousel-item{height:100%; min-height:550px; }
-#myCarousel{position:relative; z-index:1; background:url() center center no-repeat; background-size:cover;}
 
-.carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; margin: 5%; bottom:auto; transform:translateY(-80%); background-color: #08bed6; }
+#myCarousel .container {
+    max-width: 1430px;
+}
+
+#myCarousel .carousel-item {
+    height: 100%;
+    min-height: 550px;
+}
+
+#myCarousel {
+    position: relative;
+    z-index: 1;
+    background: url() center center no-repeat;
+    background-size: cover;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    top: 50%;
+    margin: 5%;
+    bottom: auto;
+    transform: translateY(-80%);
+    background-color: #08bed6;
+}
 
 
 .carousel-item {
@@ -175,12 +254,13 @@ h1{
     width: 100%;
     transition: -webkit-transform .6s ease;
     transition: transform .6s ease;
-    transition: transform .6s ease,-webkit-transform .6s ease;
+    transition: transform .6s ease, -webkit-transform .6s ease;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
     perspective: 1000px;
 }
+
 .carousel-fade .carousel-item {
     opacity: 0;
     -webkit-transition-duration: .6s;
@@ -188,220 +268,245 @@ h1{
     -webkit-transition-property: opacity;
     transition-property: opacity
 }
-.carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right, .carousel-fade .carousel-item.active {
+
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right,
+.carousel-fade .carousel-item.active {
     opacity: 1
 }
-.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-right.active {
+
+.carousel-fade .carousel-item-left.active,
+.carousel-fade .carousel-item-right.active {
     opacity: 0
 }
-.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+
+.carousel-fade .carousel-item-left.active,
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item-prev.active,
+.carousel-fade .carousel-item.active {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0)
 }
+
 @supports (transform-style:preserve-3d) {
-    .carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
-    -webkit-transform:translate3d(0, 0, 0);
-    transform:translate3d(0, 0, 0)
+
+    .carousel-fade .carousel-item-left.active,
+    .carousel-fade .carousel-item-next,
+    .carousel-fade .carousel-item-prev,
+    .carousel-fade .carousel-item-prev.active,
+    .carousel-fade .carousel-item.active {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
     }
 }
-.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+
+.carousel-fade .carousel-item-left.active,
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item-prev.active,
+.carousel-fade .carousel-item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 
- 
-@-webkit-keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 @keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 .fadeInLeft {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
 }
 
 @-webkit-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 .fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
 }
 
 @-webkit-keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
 
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 @keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
 
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
+
 /* end carousel */
 
 /* bouton recherche magasin */
-    .btn{
-        border-radius: 20px;
-        width: 300px;
-        text-align: center;
-        margin: auto;
-        margin-top: 30px;
-        background-color: #1f315a;
-    }
-    
-   
-    .btn a:hover{
-        color: rgb(4, 36, 11);
-        text-decoration: none;
-        
-      /* nav menu   */
-    }
-    a.nav-link{
-        margin: 0;
-    }
-    .nav-item{
-        font-size: 20px;
-        margin: 20px;
-        
-    }
-    .nav-item a:hover{
-        
-        transform: scale(1);
-        font-weight: 800;
-        
-    } 
-    
-    /* image gallery */
-    .img-mx-auto{
-         width: 300px;
-         height: 500px;
-         
-        
-    }  
-    
+.btn {
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #1f315a;
+}
+
+
+.btn a:hover {
+    color: rgb(4, 36, 11);
+    text-decoration: none;
+
+    /* nav menu   */
+}
+
+a.nav-link {
+    margin: 0;
+}
+
+.nav-item {
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.nav-item a:hover {
+
+    transform: scale(1);
+    font-weight: 800;
+
+}
+
+/* image gallery */
+.img-mx-auto {
+    width: 300px;
+    height: 500px;
+
+
+}
+
 /* MAPS *** */
 
-.btn2{
+.btn2 {
     border-radius: 20px;
     width: 300px;
     text-align: center;
     margin: auto;
     background-color: #040f38;
     /* margin-top: 30px; */
-   
+
 }
-.btn2 a:hover{
+
+.btn2 a:hover {
     color: #08bed6;
 }
 
- 
+
 
 /* AVIS CLIENTS *******
 ********************** */
-.client
-{
-    background-image:url();
+.client {
+    background-image: url();
     background-size: cover;
     background-attachment: fixed;
 }
-.client  h2
-{
+
+.client h2 {
     color: rgb(31, 32, 128);
 }
-.client h2:hover
-{
+
+.client h2:hover {
     background-color: #272FA0;
 }
-blockquote
-{
+
+blockquote {
     color: rgb(42, 87, 185);
-    padding:5px;
+    padding: 5px;
     font-style: italic;
     line-height: 130%;
 }
-blockquote:before
-{
-    font-size:800% ;
+
+blockquote:before {
+    font-size: 800%;
     font-family:
-    position: absolute;
+        position: absolute;
     top: 30px;
     left: 8px;
     color: rgba(255, 255, 255, 0.6);
 }
-cite
-{
+
+cite {
     font-size: 90%;
     display: block;
     margin-top: 20px;
 }
-cite img
-{
+
+cite img {
     height: 100px;
     border-radius: 50%;
     margin-right: 10px;
@@ -412,27 +517,25 @@ cite img
 ***************** */
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 @import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
+
 input.btn-primary {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 
 
-    /* FOOTER */
+/* FOOTER */
 
-footer
-{
+footer {
     width: 100%;
     height: 200px;
     background-color: #1f315a;
     color: wheat;
-    
+
 }
-footer i 
-{
+
+footer i {
     font-size: 50px;
     color: white;
     margin: 30px;
 }
-
-    
