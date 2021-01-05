@@ -3,37 +3,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 body {
     font-family: "righteous";
-    width: 100%;
-    height: 100vh;
-    background-image: url(/images/dimitri-houtteman-k-xYhI3-gJM-unsplash.jpg);
+    overflow-x: hidden;
+    /* width: 100%;
+    height: 100vh; */
+
+    /* background-image: url(/images/dimitri-houtteman-k-xYhI3-gJM-unsplash.jpg);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 
 }
 
 h1 {
     font-family: "righteous";
     text-align: center;
-    margin: 40px;
+    /* margin: 40px; */
 
 }
 
 /* section banniere */
 
 .banniere {
-    width: auto;
-    height: 500px;
-    background-image: url(/images/bannière-finale.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-bottom: 0;
+    
+    
+    
+    
 
+}
+nav{
+    width: 100%;
+    height: 300px;
+    background: url(/images/bannière-finale.png)no-repeat center/cover;
+    border-radius: 5px;
+    box-shadow:10px 10px 8px 10px #888888 ;
+}
+li.nav-item{
+    padding-left: 120px;
+    padding-top: 210px;
+    
+   
 }
 
 span.navbar-toggler-icon {
@@ -81,7 +94,7 @@ span.navbar-toggler-icon {
 }
 
 .navbar-brand img {
-    margin: 20px;
+    /* margin: 20px; */
     padding: 0;
 }
 
@@ -101,7 +114,7 @@ span.navbar-toggler-icon {
 }
 
 .logo-text {
-    margin: auto;
+    margin: 0;
 
 }
 
@@ -123,18 +136,19 @@ span.navbar-toggler-icon {
 
 .nav-link {
     position: relative;
-
+    
 }
 
 a.nav-link {
-    margin-left: 50px;
+    margin-bottom: 0;
+    color: white !important;
 }
 
 /* carousel*/
 
 #myCarousel .carousel-item .mask {
     position: absolute;
-    top: 70px;
+    top: 0;
     left: 0;
     height: 100%;
     width: 100%;
@@ -428,22 +442,31 @@ a.nav-link {
 
 a.nav-link {
     margin: 0;
-    
+   
 }
 
-.nav-item {
-    font-size: 25px;
-    margin: 20px;
-    background-color: teal;
-    border-radius: 20px;
 
+.nav-item {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #272FA0;
+  flex: 20;
+    
+    
+
+}
+ul {
+    margin-left: 150px;
 }
 
 .nav-item a:hover {
+    background:#020e2b;  
+    transform: scale(1.5);
+    transition: all ease-in-out 0.8s;
+    
+    
 
-    transform: scale(1);
-    font-weight: bolder;
-    color: red;
+    
 
 }
 
@@ -498,8 +521,7 @@ blockquote {
 
 blockquote:before {
     font-size: 800%;
-    font-family:
-        position: absolute;
+    position: absolute;
     top: 30px;
     left: 8px;
     color: rgba(255, 255, 255, 0.6);
