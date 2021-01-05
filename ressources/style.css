@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -28,68 +28,83 @@ h1 {
 
 /* section banniere */
 
-.banniere {
-    
-    
-    
-    
+.banniere {}
 
-}
-nav{
+nav {
     width: 100%;
     height: 300px;
     background: url(/images/bannière-finale.png)no-repeat center/cover;
     border-radius: 5px;
-    box-shadow:10px 10px 8px 10px #888888 ;
+    box-shadow: 10px 10px 8px 10px #888888;
+    margin-bottom: 20px;
 }
-li.nav-item{
+
+li.nav-item {
     padding-left: 120px;
     padding-top: 210px;
-    
-   
+
+
 }
 
 span.navbar-toggler-icon {
     right: auto;
+    z-index: 2;
 
 }
 
 /* responsive banniere */
 
-@media (max-width:1500px) {
-    .banniere {
+@media (max-width:1300px) {
+    nav {
         height: 400px;
+
     }
+
+    li.nav-item {
+        padding-left: 50px;
+        padding-top: 250px;
+    }
+
 }
 
 @media (max-width:1100px) {
-    .banniere {
+    nav {
         height: 350px;
     }
 }
 
 @media (max-width:900px) {
-    .banniere {
+    nav {
         height: 300px;
     }
 }
 
 @media (max-width: 725px) {
-    .banniere {
+    nav {
         height: 250px;
     }
 }
 
-@media (max-width:600px) {
-    .banniere {
-        height: 200px;
+@media (max-width:500px) {
+    nav {
+        height: 120px;
+        margin-bottom: 22px;
     }
+
+    li.nav-item {
+        padding: 0;
+        margin: 0;
+        z-index: 2;
+        
+    }
+
 }
 
 @media (max-width:400px) {
-    .banniere {
+    nav {
         height: 100px;
         width: 100%;
+        margin-bottom: 22px;
     }
 }
 
@@ -136,7 +151,7 @@ span.navbar-toggler-icon {
 
 .nav-link {
     position: relative;
-    
+
 }
 
 a.nav-link {
@@ -436,37 +451,39 @@ a.nav-link {
     color: rgb(4, 36, 11);
     text-decoration: none;
 
-    
+
 }
+
 /* nav menu   */
 
 a.nav-link {
     margin: 0;
-   
+
 }
 
 
 .nav-item {
-  margin-top: 20px;
-  margin-left: 30px;
-  color: #272FA0;
-  flex: 20;
-    
-    
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #272FA0;
+
+
+
 
 }
+
 ul {
     margin-left: 150px;
 }
 
 .nav-item a:hover {
-    background:#020e2b;  
+    background: #020e2b;
     transform: scale(1.5);
     transition: all ease-in-out 0.8s;
-    
-    
 
-    
+
+
+
 
 }
 
